@@ -49,10 +49,10 @@ console.log("Remove last two elements from array:",removeLastTwo(['dog', 'cat', 
 
 function middleElement(arr) {
   if (arr.length % 2 === 0) {
-    console.log("Oops there's no middle...");
+    return "Oops there's no middle...";
   } else {
     var middleIndex = Math.floor(arr.length/2);
-    console.log(arr[middleIndex]);
+    return arr[middleIndex];
   }
 }
 
